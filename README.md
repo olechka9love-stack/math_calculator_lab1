@@ -408,14 +408,3 @@ python tests/test_lexer.py
 
 # Запустить интерактивный режим
 python src/main.py
-NUMBER    : [0-9]+ ('.' [0-9]+)?;
-ID        : [a-zA-Z_][a-zA-Z_0-9]*;
-PLUS      : '+';
-MINUS     : '-';  
-MUL       : '*';
-DIV       : '/';
-ASSIGN    : '=';
-LPAREN    : '(';
-RPAREN    : ')';
-SEMI      : ';';
-WS        : [ \t\r\n]+ -> skip;
